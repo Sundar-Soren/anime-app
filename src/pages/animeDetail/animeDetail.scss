@@ -1,0 +1,49 @@
+.animeDeatils{
+    width: 100%;
+    position: relative;
+    .Movie_detailPoster{
+        width: 100%;
+        object-fit: cover;
+        height: 90vh;
+
+    }
+    .movie_details{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-image:  linear-gradient(to bottom,#e7e7e700,#100f0fd5, #000000e3, #000000);
+        .content_movie{
+            width: 85%;
+            margin: 1rem auto;
+            .MovieTitle{
+            font-size: 3rem;
+            @media (max-width:780px) {
+                font-size: 2rem;
+            }
+        
+            }
+            .movie_dec{
+            font-size: 1.3rem;
+            @media (max-width:780px) {
+                font-size: 1rem;
+            }
+        
+            }
+            p{
+            color: white;  
+            margin: 0;
+            }
+            button{
+            margin-top: 10px;
+            font-size: 1.5rem;
+            background-color: #ff501a;
+            border-radius: 3px;
+            color: white;
+            border: none;
+            outline: none;
+            padding: 7px 1rem;
+            cursor: pointer;
+        }
+    }
+    }
+}
